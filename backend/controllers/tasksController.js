@@ -10,7 +10,7 @@ const transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
         user: 'savelyev_av@edu.surgu.ru',
-        pass: 'plbhwtubkzdlwluc'
+        pass: 'plbhwtubk'
     }
 });
 async function sendEmail(task_id) {
